@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مكتبة الكتب الدراسية | استعلام الأسعار والطلب 📚</title>
+  
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="ابحث عن أسعار الكتب الدراسية لجميع المراحل التعليمية واطلبها مباشرة عبر واتساب من شيت جوجل المحدث فورياً.">
+  <meta name="keywords" content="كتب دراسية, أسعار الكتب, الأضواء, المعاصر, سلاح التلميذ, طلب كتب">
+  
+  <!-- Google Fonts (Cairo for Arabic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind/CSS stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <div class="glass-bg"></div>
+
+  <main class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-container">
+        <div class="logo-circle">
+          <i data-lucide="book-open" class="logo-icon"></i>
+        </div>
+      </div>
+      <h1 class="app-title">مكتبة الكتب الدراسية</h1>
+      <p class="app-subtitle">ابحث عن أسعار كتبك المفضلة واطلبها مباشرة عبر واتساب 💬</p>
+      <div class="sheet-status">
+        <span class="status-indicator"></span>
+        <span class="status-text">مربوط بشيت جوجل المحدث تلقائياً</span>
+      </div>
+    </header>
+
+    <!-- Main Card/Wizard -->
+    <section class="wizard-card" id="wizard-card">
+      
+      <!-- Progress Bar -->
+      <div class="progress-bar-container">
+        <div class="progress-steps">
+          <div class="step-indicator active" id="step-ind-1">
+            <span class="step-num">١</span>
+            <span class="step-label">المرحلة والصف</span>
+          </div>
+          <div class="step-line" id="step-line-1"></div>
+          <div class="step-indicator" id="step-ind-2">
+            <span class="step-num">٢</span>
+            <span class="step-label">اختر الكتاب</span>
+          </div>
+          <div class="step-line" id="step-line-2"></div>
+          <div class="step-indicator" id="step-ind-3">
+            <span class="step-num">٣</span>
+            <span class="step-label">السعر والطلب</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 1: Select Stage & Grade -->
+      <div class="step-content active" id="step-1-content">
+        <h2 class="step-title">اختر المرحلة الدراسية والصف 🏫</h2>
+        
+        <!-- Stage Tabs -->
+        <div class="stage-tabs">
+          <button class="stage-tab active" data-stage="primary">
+            <i data-lucide="baby"></i>
+            <span>الابتدائي وكي جي</span>
+          </button>
+          <button class="stage-tab" data-stage="secondary">
+            <i data-lucide="graduation-cap"></i>
+            <span>الإعدادي والثانوي</span>
+          </button>
+        </div>
+
+        <!-- Grades Grid -->
+        <div class="grades-grid" id="grades-grid">
+          <!-- Dynamically populated -->
+          <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>جاري تحميل الصفوف المتاحة...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Select Book -->
+      <div class="step-content" id="step-2-content">
+        <div class="step-header-actions">
+          <button class="btn-back" id="btn-back-to-1">
+            <i data-lucide="arrow-right"></i>
+            <span>رجوع</span>
+          </button>
+          <div class="current-selection-badge">
+            <i data-lucide="map-pin"></i>
+            <span id="selected-grade-label">الصف</span>
+          </div>
+        </div>
+
+        <h2 class="step-title">اختر الكتاب الدراسي 📘</h2>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+          <i data-lucide="search" class="search-icon"></i>
+          <input type="text" id="book-search" placeholder="ابحث باسم الكتاب أو الناشر (مثال: رياضيات، الأضواء)..." dir="rtl">
+          <button class="clear-search" id="clear-search-btn" style="display: none;">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+
+        <!-- Books List -->
+        <div class="books-list" id="books-list">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Step 3: Show Price & Order -->
+      <div class="step-content" id="step-3-content">
+        <div class="step-header-actions">
+          <button class="btn-back" id="btn-back-to-2">
+            <i data-lucide="arrow-right"></i>
+            <span>رجوع للكتب</span>
+          </button>
+        </div>
+
+        <div class="receipt-card">
+          <div class="receipt-header">
+            <div class="success-icon-circle animate-pop">
+              <i data-lucide="check"></i>
+            </div>
+            <h3>تفاصيل طلبك جاهزة!</h3>
+            <p>الكتاب متوفر حالياً في المكتبة</p>
+          </div>
+          
+          <div class="receipt-body">
+            <div class="receipt-row">
+              <span class="receipt-label">الصف الدراسي:</span>
+              <span class="receipt-value" id="receipt-grade">-</span>
+            </div>
+            <div class="receipt-row">
+              <span class="receipt-label">اسم الكتاب:</span>
+              <span class="receipt-value" id="receipt-book-name">-</span>
+            </div>
+            <div class="receipt-row">
+              <span class="receipt-label">الناشر:</span>
+              <span class="receipt-value" id="receipt-publisher">-</span>
+            </div>
+            <div class="receipt-divider"></div>
+            <div class="receipt-row price-row">
+              <span class="receipt-label">سعر الكتاب المعتمد:</span>
+              <span class="receipt-value price-tag"><span id="receipt-price">0</span> <small>جنيه مصري</small></span>
+            </div>
+          </div>
+
+          <div class="receipt-footer">
+            <a href="#" target="_blank" class="btn-whatsapp" id="btn-order-whatsapp">
+              <i data-lucide="message-square"></i>
+              <span>اطلب الآن عبر واتساب</span>
+            </a>
+            
+            <button class="btn-restart" id="btn-restart-wizard">
+              <i data-lucide="rotate-ccw"></i>
+              <span>البحث عن كتاب آخر</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>© 2026 مكتبة الكتب الدراسية. جميع الحقوق محفوظة.</p>
+      <p class="developed-by">تم التطوير بكل حب لمساعدتك في الحصول على أفضل تجربة شراء 💚</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
