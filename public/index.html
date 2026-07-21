@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مكتبة القاهرة | استعلام الأسعار والطلب 📚</title>
+  <title>مكتبة القاهرة | استعلام أسعار الكتب والطلب 📚</title>
   
   <!-- Meta Tags for SEO -->
-  <meta name="description" content="ابحث عن أسعار الكتب الدراسية لجميع المراحل التعليمية واطلبها مباشرة عبر واتساب من شيت جوجل المحدث فورياً.">
-  <meta name="keywords" content="كتب دراسية, أسعار الكتب, الأضواء, المعاصر, سلاح التلميذ, طلب كتب">
+  <meta name="description" content="موقع مكتبة القاهرة لاستعلام أسعار الكتب الدراسية والتأسيس لجميع المراحل (KG - ثانوي - أزهر - لغات) والطلب المباشر عبر واتساب.">
+  <meta name="keywords" content="مكتبة القاهرة, أسعار الكتب الدراسية, كتب التأسيس, سلاح التلميذ, المعاصر, الأضواء, الباهر, كتب أزهر, كتب لغات">
   
-  <!-- Google Fonts (Cairo for Arabic) -->
+  <!-- Google Fonts (Cairo & Outfit) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   
-  <!-- Tailwind/CSS stylesheet -->
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
   
   <!-- Lucide Icons CDN -->
@@ -28,17 +28,17 @@
     <!-- Header -->
     <header class="app-header">
       <div class="logo-container">
-        <img src="logo.jpg" alt="مكتبة القاهرة" class="logo-img">
+        <img src="logo.jpg" alt="مكتبة القاهرة" class="logo-img" onerror="this.src='https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=200&auto=format&fit=crop&q=80'">
       </div>
       <h1 class="app-title">مكتبة القاهرة</h1>
-      <p class="app-subtitle">ابحث عن أسعار كتبك المفضلة واطلبها مباشرة عبر واتساب 💬</p>
+      <p class="app-subtitle">ابحث عن أسعار الكتب الدراسية والتأسيس واطلبها فوراً عبر واتساب 💬</p>
       <div class="sheet-status">
         <span class="status-indicator"></span>
-        <span class="status-text">مربوط بشيت جوجل المحدث تلقائياً</span>
+        <span class="status-text">شيت الأسعار محدث تلقائياً 2027</span>
       </div>
     </header>
 
-    <!-- Main Card/Wizard -->
+    <!-- Main Card / Multi-step Wizard -->
     <section class="wizard-card" id="wizard-card">
       
       <!-- Progress Bar -->
@@ -46,7 +46,7 @@
         <div class="progress-steps">
           <div class="step-indicator active" id="step-ind-1">
             <span class="step-num">١</span>
-            <span class="step-label">المرحلة والصف</span>
+            <span class="step-label">تحديد القسم والصف</span>
           </div>
           <div class="step-line" id="step-line-1"></div>
           <div class="step-indicator" id="step-ind-2">
@@ -61,28 +61,61 @@
         </div>
       </div>
 
-      <!-- Step 1: Select Stage & Grade -->
+      <!-- Step 1: Select Main Section & Sub-options -->
       <div class="step-content active" id="step-1-content">
-        <h2 class="step-title">اختر المرحلة الدراسية والصف 🏫</h2>
+        <h2 class="step-title">اختر القسم التعليمي 🏫</h2>
         
-        <!-- Stage Tabs -->
-        <div class="stage-tabs">
-          <button class="stage-tab active" data-stage="primary">
-            <i data-lucide="baby"></i>
-            <span>الابتدائي وكي جي</span>
+        <!-- Category Navigation Tabs -->
+        <div class="category-tabs" id="category-tabs">
+          <button class="cat-tab active" data-category="foundation">
+            <i data-lucide="sparkles"></i>
+            <span>التأسيس</span>
           </button>
-          <button class="stage-tab" data-stage="secondary">
+          <button class="cat-tab" data-category="kg">
+            <i data-lucide="baby"></i>
+            <span>كي جي (KG)</span>
+          </button>
+          <button class="cat-tab" data-category="primary">
+            <i data-lucide="book-open"></i>
+            <span>الابتدائي</span>
+          </button>
+          <button class="cat-tab" data-category="prep">
             <i data-lucide="graduation-cap"></i>
-            <span>الإعدادي والثانوي</span>
+            <span>الإعدادي</span>
+          </button>
+          <button class="cat-tab" data-category="sec">
+            <i data-lucide="award"></i>
+            <span>الثانوي</span>
           </button>
         </div>
 
-        <!-- Grades Grid -->
-        <div class="grades-grid" id="grades-grid">
-          <!-- Dynamically populated -->
-          <div class="loading-spinner">
-            <div class="spinner"></div>
-            <p>جاري تحميل الصفوف المتاحة...</p>
+        <!-- Sub-filter Container -->
+        <div class="subfilter-container" id="subfilter-container">
+          <!-- Pathway Filter (For KG, Primary, Prep, Sec) -->
+          <div class="pathway-selector" id="pathway-selector" style="display: none;">
+            <label class="filter-label">اختر المسار التعليمي:</label>
+            <div class="pathway-buttons" id="pathway-buttons">
+              <!-- Populated dynamically: عربي | لغات | أزهر -->
+            </div>
+          </div>
+
+          <!-- Company Filter (For Foundation) -->
+          <div class="company-selector" id="company-selector" style="display: none;">
+            <label class="filter-label">اختر الشركة / الناشر:</label>
+            <div class="company-chips" id="company-chips">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Grade Selection Grid -->
+        <div class="grades-selection-block" id="grades-selection-block">
+          <h3 class="sub-title" id="grades-grid-title">اختر الصف الدراسي:</h3>
+          <div class="grades-grid" id="grades-grid">
+            <div class="loading-spinner">
+              <div class="spinner"></div>
+              <p>جاري تحميل الأقسام والصفوف المتاحة...</p>
+            </div>
           </div>
         </div>
       </div>
@@ -92,20 +125,20 @@
         <div class="step-header-actions">
           <button class="btn-back" id="btn-back-to-1">
             <i data-lucide="arrow-right"></i>
-            <span>رجوع</span>
+            <span>رجوع للأقسام</span>
           </button>
-          <div class="current-selection-badge">
+          <div class="current-selection-badge" id="current-selection-badge">
             <i data-lucide="map-pin"></i>
-            <span id="selected-grade-label">الصف</span>
+            <span id="selected-path-label">القسم والصف</span>
           </div>
         </div>
 
-        <h2 class="step-title">اختر الكتاب الدراسي 📘</h2>
+        <h2 class="step-title">اختر الكتاب المطلوب 📘</h2>
 
         <!-- Search Bar -->
         <div class="search-container">
           <i data-lucide="search" class="search-icon"></i>
-          <input type="text" id="book-search" placeholder="ابحث باسم الكتاب أو الناشر (مثال: رياضيات، الأضواء)..." dir="rtl">
+          <input type="text" id="book-search" placeholder="ابحث باسم المادة أو الناشر (مثال: رياضيات، الأضواء، سلاح التلميذ)..." dir="rtl">
           <button class="clear-search" id="clear-search-btn" style="display: none;">
             <i data-lucide="x"></i>
           </button>
@@ -132,21 +165,25 @@
               <i data-lucide="check"></i>
             </div>
             <h3>تفاصيل طلبك جاهزة!</h3>
-            <p>الكتاب متوفر حالياً في المكتبة</p>
+            <p>الكتاب متوفر حالياً في مكتبة القاهرة</p>
           </div>
           
           <div class="receipt-body">
+            <div class="receipt-row">
+              <span class="receipt-label">القسم / المسار:</span>
+              <span class="receipt-value" id="receipt-pathway">-</span>
+            </div>
             <div class="receipt-row">
               <span class="receipt-label">الصف الدراسي:</span>
               <span class="receipt-value" id="receipt-grade">-</span>
             </div>
             <div class="receipt-row">
-              <span class="receipt-label">اسم الكتاب:</span>
-              <span class="receipt-value" id="receipt-book-name">-</span>
+              <span class="receipt-label">الشركة / الناشر:</span>
+              <span class="receipt-value badge-publisher" id="receipt-publisher">-</span>
             </div>
             <div class="receipt-row">
-              <span class="receipt-label">الناشر:</span>
-              <span class="receipt-value" id="receipt-publisher">-</span>
+              <span class="receipt-label">اسم الكتاب / المادة:</span>
+              <span class="receipt-value" id="receipt-book-name">-</span>
             </div>
             <div class="receipt-divider"></div>
             <div class="receipt-row price-row">
@@ -158,7 +195,7 @@
           <div class="receipt-footer">
             <a href="#" target="_blank" class="btn-whatsapp" id="btn-order-whatsapp">
               <i data-lucide="message-square"></i>
-              <span>اطلب الآن عبر واتساب</span>
+              <span>اطلب الآن عبر واتساب (01012123955)</span>
             </a>
             
             <button class="btn-restart" id="btn-restart-wizard">
@@ -173,9 +210,9 @@
 
     <!-- Footer -->
     <footer class="app-footer">
-      <p class="wishes-text">نتمني لكم السعادة والرضا 🤍</p>
-      <p>© 2026 مكتبة القاهرة. جميع الحقوق محفوظة.</p>
-      <p class="developed-by">تم التطوير بكل حب لمساعدتك في الحصول على أفضل تجربة شراء 💚</p>
+      <p class="contact-number">📞 رقم المبيعات والواتساب: <strong>01012123955</strong></p>
+      <p class="wishes-text">نتمنى لكم النجاح والتوفيق الدائم 🤍</p>
+      <p>© 2026-2027 مكتبة القاهرة. جميع الحقوق محفوظة.</p>
     </footer>
   </main>
 
