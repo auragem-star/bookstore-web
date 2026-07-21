@@ -1,7 +1,6 @@
 const sheets = require('../src/sheets');
 
 module.exports = async (req, res) => {
-  // Set CORS headers so that it can be accessed from anywhere if needed
   res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
@@ -19,7 +18,7 @@ module.exports = async (req, res) => {
     const data = await sheets.fetchSheetData();
     res.status(200).json(data);
   } catch (err) {
-    console.error('Error fetching sheet data for Vercel API:', err.message);
-    res.status(500).json({ error: 'Failed to read educational books data' });
+    console.error('Error fetching books data:', err.message);
+    res.status(500).json({ error: 'فشل في قراءة بيانات أسعار الكتب الدراسية' });
   }
 };
