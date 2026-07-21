@@ -1,0 +1,1866 @@
+[
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "عربي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  130
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "عربي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  130
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "عربي",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  130
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "رياضة",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "رياضة",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "رياضة",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  135
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  135
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  135
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  135
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  135
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الباهر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  135
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "رياضيات",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "رياضيات",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  185
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "رياضيات",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  185
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "رياضيات بحتة",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  445
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "رياضيات تطبيقية",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  400
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "كي جي 1",
+        "stage":  "kg",
+        "price":  125
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "كي جي 2",
+        "stage":  "kg",
+        "price":  125
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "المعاصر",
+        "subject":  "احصاء ( ادبي )",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  199
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "عربي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  180
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "عربي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  180
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "عربي",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  190
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "رياضة",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  170
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "رياضة",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "رياضة",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "دين",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  130
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "دين",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  145
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "دين",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  150
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "تكنولوجيا المعلومات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  180
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "تكنولوجيا المعلومات",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  145
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "تكنولوجيا المعلومات",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  150
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "انجليزي",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  180
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "سلاح التلميذ",
+        "subject":  "انجليزي",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  190
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "عربي",
+        "grade":  "كي جي 1",
+        "stage":  "kg",
+        "price":  139
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "عربي",
+        "grade":  "كي جي 2",
+        "stage":  "kg",
+        "price":  139
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "عربي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "عربي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "عربي",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  179
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "عربي",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "عربي",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "عربي",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "رياضيات",
+        "grade":  "كي جي 1",
+        "stage":  "kg",
+        "price":  129
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "رياضيات",
+        "grade":  "كي جي 2",
+        "stage":  "kg",
+        "price":  129
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "رياضيات",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  169
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "رياضيات",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  179
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "رياضيات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  179
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "رياضيات",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  179
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "رياضيات",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  179
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "دراسات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "دراسات",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "تأسيس سليم",
+        "subject":  "دراسات",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  179
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "عربي",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  205
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "عربي",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  220
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "عربي",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  220
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "جغرافيا",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  218
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "تاريخ",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  265
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "كيمياء",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  285
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "فيزياء",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  230
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "احياء",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  215
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "دراسات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  169
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "دراسات",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  187
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "دراسات",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "احياء ( اسئلة )",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  299
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "فيزياء ( اسئلة )",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  325
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الامتحان",
+        "subject":  "علوم",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "عربي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  159
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "عربي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  159
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "عربي",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  169
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "عربي",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  195
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "عربي",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  195
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "عربي",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  199
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "عربي",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  199
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "عربي",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  199
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "رياضيات",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  149
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "رياضيات",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  159
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "رياضيات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "رياضيات",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  169
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "رياضيات",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  169
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "انجليزي ( جيم )",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "انجليزي ( جيم )",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "انجليزي ( جيم )",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  169
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "انجليزي ( جيم )",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  189
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "انجليزي ( جيم )",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  179
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "انجليزي ( جيم )",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  199
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "انجليزي ( جيم )",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  199
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "انجليزي ( جيم )",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  199
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دراسات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  159
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دراسات",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  159
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دراسات",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دين",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  129
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دين",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  139
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دين",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  139
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دين",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  139
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دين",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  149
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأضواء",
+        "subject":  "دين",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  149
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "كي جي 1",
+        "stage":  "kg",
+        "price":  140
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "كي جي 2",
+        "stage":  "kg",
+        "price":  145
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  185
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  187
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  187
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  195
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  220
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "ستيب اهيد",
+        "subject":  "انجليزي ( كونكت )",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  220
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأستاذ",
+        "subject":  "عربي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  160
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأستاذ",
+        "subject":  "عربي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأستاذ",
+        "subject":  "عربي",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأستاذ",
+        "subject":  "رياضيات",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  150
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأستاذ",
+        "subject":  "رياضيات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الأستاذ",
+        "subject":  "رياضيات",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  155
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "عربي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  160
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "عربي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  160
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "عربي",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "عربي",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "عربي",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  160
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "دين",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  100
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "دين",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  100
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "دين",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  100
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الابرار",
+        "subject":  "دين",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  110
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الوافي",
+        "subject":  "فيزياء",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  240
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الوافي",
+        "subject":  "كيمياء",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  240
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "عربي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  170
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "عربي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  180
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "عربي",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  185
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "عربي",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  185
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "عربي",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  185
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "عربي",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  185
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "رياضيات",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  160
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "رياضيات",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "رياضيات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "رياضيات",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "رياضيات",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  175
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "دراسات",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "دراسات",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "السندباد",
+        "subject":  "دراسات",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  165
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "افوجادرو",
+        "subject":  "كيمياء",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  185
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "قطر الندي",
+        "subject":  "عربي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "قطر الندي",
+        "subject":  "عربي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "قطر الندي",
+        "subject":  "عربي",
+        "grade":  "3 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "قطر الندي",
+        "subject":  "رياضيات",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "قطر الندي",
+        "subject":  "انجليزي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "قطر الندي",
+        "subject":  "انجليزي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  120
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "استار",
+        "subject":  "الماني",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  190
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الكيمياء",
+        "subject":  "كيمياء",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  290
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "البرهان",
+        "subject":  "احياء ( تاسيس )",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  70
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "البرهان",
+        "subject":  "عربي",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  310
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "كيان",
+        "subject":  "عربي",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  195
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "جلوبال",
+        "subject":  "الماني",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  100
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "بيت باي بيت",
+        "subject":  "انجليزي",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  135
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "بيت باي بيت",
+        "subject":  "انجليزي",
+        "grade":  "2 ابتدائي",
+        "stage":  "primary",
+        "price":  135
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "بيت باي بيت",
+        "subject":  "انجليزي",
+        "grade":  "6 ابتدائي",
+        "stage":  "primary",
+        "price":  155
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "بيت باي بيت",
+        "subject":  "انجليزي",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  150
+    },
+    {
+        "pathway":  "عربي",
+        "company":  "الايزو",
+        "subject":  "كيمياء ( تدريبات )",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  240
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "المعاصر",
+        "subject":  "Math",
+        "grade":  "كي جي 1",
+        "stage":  "kg",
+        "price":  255
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "المعاصر",
+        "subject":  "Math",
+        "grade":  "كي جي 2",
+        "stage":  "kg",
+        "price":  210
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "المعاصر",
+        "subject":  "Math",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  255
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "بوني",
+        "subject":  "math",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  230
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "بوني",
+        "subject":  "math",
+        "grade":  "4 ابتدائي",
+        "stage":  "primary",
+        "price":  240
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "بوني",
+        "subject":  "math",
+        "grade":  "5 ابتدائي",
+        "stage":  "primary",
+        "price":  240
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "التاسيس السليم",
+        "subject":  "ماس",
+        "grade":  "كي جي 1",
+        "stage":  "kg",
+        "price":  129
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "التاسيس السليم",
+        "subject":  "ماس",
+        "grade":  "كي جي 2",
+        "stage":  "kg",
+        "price":  129
+    },
+    {
+        "pathway":  "لغات",
+        "company":  "التاسيس السليم",
+        "subject":  "ماس",
+        "grade":  "1 ابتدائي",
+        "stage":  "primary",
+        "price":  210
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "اللغة العربية",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  125
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "اللغة العربية",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  135
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "اللغة العربية",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  135
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "أصول الدين",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "أصول الدين",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "أصول الدين",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "النحو",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  100
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "الصرف",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  130
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "الادب و النصوص",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  130
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "البلاغة",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  120
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "الفقه المالكي",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  100
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "المرشد",
+        "subject":  "نحو ( ادبي )",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  140
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "اللغة العربية",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "اللغة العربية",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  120
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "اللغة العربية",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  115
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "الفقه الحنفي",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  50
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "الفقه الحنفي",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  50
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "الفقه الحنفي",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  50
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "الفقه الشافعي",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  50
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "الفقه الشافعي",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  50
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "الفقه الشافعي",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  55
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "أصول الدين",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  90
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "أصول الدين",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  80
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "الامام",
+        "subject":  "أصول الدين",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  90
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "اللغة العربية",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  125
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "اللغة العربية",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  135
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "اللغة العربية",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  150
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الحنفي",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  65
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الحنفي",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  65
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الحنفي",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  65
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الحنفي",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الحنفي",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  100
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الحنفي",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  150
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الشافعي",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  65
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الشافعي",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  65
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الشافعي",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  65
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الشافعي",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الشافعي",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  100
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الفقه الشافعي",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  150
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "أصول الدين",
+        "grade":  "1 إعدادي",
+        "stage":  "prep",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "أصول الدين",
+        "grade":  "2 إعدادي",
+        "stage":  "prep",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "أصول الدين",
+        "grade":  "3 إعدادي",
+        "stage":  "prep",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "النحو",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  140
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "النحو",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  125
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "النحو",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  150
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "التوحيد",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  80
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "التوحيد",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  80
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "التوحيد",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  90
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الصرف",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  80
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الصرف",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الصرف",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  140
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الحديث",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  80
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الحديث",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  80
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الحديث",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  110
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الادب و النصوص",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  140
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الادب و النصوص",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  150
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "الادب و النصوص",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  150
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "البلاغة",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  90
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "البلاغة",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  100
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "البلاغة",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  120
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "التفسير",
+        "grade":  "1 ثانوي",
+        "stage":  "sec",
+        "price":  100
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "التفسير",
+        "grade":  "2 ثانوي",
+        "stage":  "sec",
+        "price":  80
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "التفسير",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  90
+    },
+    {
+        "pathway":  "أزهر",
+        "company":  "سلاح الازهري",
+        "subject":  "ميراث",
+        "grade":  "3 ثانوي",
+        "stage":  "sec",
+        "price":  60
+    }
+]
