@@ -71,6 +71,14 @@ document.addEventListener('DOMContentLoaded', () => {
     ]
   };
 
+  // Define known foundation companies or match by keyword
+  const foundationKeywords = ['الابرار', 'التاسيس', 'تأسيس', 'القمة', 'ماي تيتشر', 'المنار'];
+  function isFoundationCompany(companyName) {
+    if (!companyName) return false;
+    const name = companyName.toLowerCase();
+    return foundationKeywords.some(kw => name.includes(kw));
+  }
+
   // Fetch API Data
   async function loadData() {
     try {
@@ -102,9 +110,11 @@ document.addEventListener('DOMContentLoaded', () => {
       // Collect available companies in foundation
       const companiesSet = new Set();
       rawBooksList.forEach(item => {
-        if (item.company) companiesSet.add(item.company);
+        if (isFoundationCompany(item.company)) {
+          companiesSet.add(item.company);
+        }
       });
-      const companiesList = ['الكل', ...Array.from(companiesSet)];
+      const companiesList = companiesSet.size > 0 ? ['الكل', ...Array.from(companiesSet)] : ['الكل'];
 
       companyChips.innerHTML = '';
       companiesList.forEach(comp => {
@@ -227,6 +237,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (activeCategory === 'foundation') {
       if (activeCompany !== 'الكل') {
         filtered = filtered.filter(item => item.company === activeCompany);
+      } else {
+        filtered = filtered.filter(item => isFoundationCompany(item.company));
       }
     } else {
       filtered = filtered.filter(item => item.grade === activeGrade && item.pathway === activePathway);
