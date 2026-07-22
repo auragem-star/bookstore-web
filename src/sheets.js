@@ -16,24 +16,53 @@ async function fetchSheetData() {
   }
 
   try {
-    // 1. Check if remote CSV URL is provided (or use the hardcoded default)
-    const csvUrl = process.env.SHEET_CSV_URL || 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQoIyX5BG13qPPrQB2FREGCbf8Z4BChRNCOiwFQb6HMQ4zJK2SbLu5eDeiZ7qkvBQ/pub?output=csv';
-    if (csvUrl) {
-      try {
-        const response = await axios.get(csvUrl, { responseType: 'arraybuffer' });
-        const decoder = new TextDecoder('utf-8');
-        const csvText = decoder.decode(response.data);
-        const parsedFromCsv = parseCsvStructure(csvText);
-        if (parsedFromCsv && parsedFromCsv.length > 0) {
-          cache.set(CACHE_KEY, parsedFromCsv);
-          return parsedFromCsv;
-        }
-      } catch (remoteErr) {
-        console.warn('Could not load remote Google Sheet CSV, falling back to local dataset:', remoteErr.message);
+    let allItems = [];
+    const baseInputUrl = process.env.SHEET_CSV_URL || 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQoIyX5BG13qPPrQB2FREGCbf8Z4BChRNCOiwFQb6HMQ4zJK2SbLu5eDeiZ7qkvBQ/pub?output=csv';
+    
+    // Convert to html url to get all gids
+    const htmlUrl = baseInputUrl.replace('output=csv', 'output=html');
+    
+    try {
+      const htmlRes = await axios.get(htmlUrl);
+      const htmlText = htmlRes.data;
+      const regex = /gid=(\d+)/g;
+      let match;
+      const gids = [];
+      while ((match = regex.exec(htmlText)) !== null) {
+        if (!gids.includes(match[1])) gids.push(match[1]);
       }
+
+      // If no gids found, fallback to original url
+      if (gids.length === 0) {
+        const res = await axios.get(baseInputUrl, { responseType: 'arraybuffer' });
+        allItems = parseCsvStructure(new TextDecoder('utf-8').decode(res.data));
+      } else {
+        // Fetch all sheets
+        for (let i = 0; i < gids.length; i++) {
+          const gid = gids[i];
+          const csvFetchUrl = htmlUrl.replace('output=html', `single=true&output=csv&gid=${gid}`);
+          const res = await axios.get(csvFetchUrl, { responseType: 'arraybuffer' });
+          const csvText = new TextDecoder('utf-8').decode(res.data);
+          
+          if (i === 0) {
+            // First sheet uses normal parser
+            allItems = allItems.concat(parseCsvStructure(csvText));
+          } else {
+            // Second sheet uses foundation parser
+            allItems = allItems.concat(parseFoundationCsvStructure(csvText));
+          }
+        }
+      }
+
+      if (allItems.length > 0) {
+        cache.set(CACHE_KEY, allItems);
+        return allItems;
+      }
+    } catch (err) {
+      console.warn('Could not load remote Google Sheets, falling back to local dataset:', err.message);
     }
 
-    // 2. Fallback to pre-bundled books_data.json
+    // Fallback
     const jsonPath = path.join(__dirname, 'books_data.json');
     if (fs.existsSync(jsonPath)) {
       const fileData = fs.readFileSync(jsonPath, 'utf8');
@@ -138,6 +167,57 @@ function parseCsvStructure(csvText) {
     }
   }
 
+  return items;
+}
+
+function parseFoundationCsvStructure(csvText) {
+  const lines = csvText.split(/\r?\n/);
+  const rows = lines.map(line => {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    for (let i = 0; i < line.length; i++) {
+      const char = line[i];
+      if (char === '"') inQuotes = !inQuotes;
+      else if (char === ',' && !inQuotes) { result.push(current.trim()); current = ''; }
+      else current += char;
+    }
+    result.push(current.trim());
+    return result;
+  });
+
+  let currentCompany = '';
+  const items = [];
+
+  for (let r = 0; r < rows.length; r++) {
+    const row = rows[r];
+    if (!row || row.length === 0) continue;
+
+    const valA = row[0] ? row[0].trim() : ''; // Company
+    const valB = row[1] ? row[1].trim() : ''; // Subject
+    const valC = row[2] ? row[2].trim() : ''; // Price
+
+    if (valA) {
+      currentCompany = valA;
+    }
+
+    if (valB && valC) {
+      const cleanPrice = valC.replace(/[\u0660-\u0669]/g, d => d.charCodeAt(0) - 1632);
+      if (/^\d+(\.\d+)?$/.test(cleanPrice)) {
+        const price = parseFloat(cleanPrice);
+        if (price > 0) {
+          items.push({
+            pathway: 'عربي',
+            company: currentCompany,
+            subject: valB,
+            grade: 'تأسيس',
+            stage: 'foundation',
+            price: price
+          });
+        }
+      }
+    }
+  }
   return items;
 }
 
