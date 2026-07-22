@@ -16,10 +16,11 @@ async function fetchSheetData() {
   }
 
   try {
-    // 1. Check if remote CSV URL is provided
-    if (process.env.SHEET_CSV_URL) {
+    // 1. Check if remote CSV URL is provided (or use the hardcoded default)
+    const csvUrl = process.env.SHEET_CSV_URL || 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQoIyX5BG13qPPrQB2FREGCbf8Z4BChRNCOiwFQb6HMQ4zJK2SbLu5eDeiZ7qkvBQ/pub?output=csv';
+    if (csvUrl) {
       try {
-        const response = await axios.get(process.env.SHEET_CSV_URL, { responseType: 'arraybuffer' });
+        const response = await axios.get(csvUrl, { responseType: 'arraybuffer' });
         const decoder = new TextDecoder('utf-8');
         const csvText = decoder.decode(response.data);
         const parsedFromCsv = parseCsvStructure(csvText);
