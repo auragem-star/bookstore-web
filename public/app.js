@@ -71,14 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
     ]
   };
 
-  // Define known foundation companies or match by keyword
-  const foundationKeywords = ['الابرار', 'التاسيس', 'تأسيس', 'القمة', 'ماي تيتشر', 'المنار'];
-  function isFoundationCompany(companyName) {
-    if (!companyName) return false;
-    const name = companyName.toLowerCase();
-    return foundationKeywords.some(kw => name.includes(kw));
-  }
-
   // Fetch API Data
   async function loadData() {
     try {
@@ -110,8 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
       // Collect available companies in foundation
       const companiesSet = new Set();
       rawBooksList.forEach(item => {
-        if (isFoundationCompany(item.company)) {
-          companiesSet.add(item.company);
+        // Use the new dynamic property from the backend
+        if (item.stage === 'foundation' || item.grade === 'تأسيس') {
+          if (item.company) companiesSet.add(item.company);
         }
       });
       const companiesList = companiesSet.size > 0 ? ['الكل', ...Array.from(companiesSet)] : ['الكل'];
@@ -236,9 +229,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (activeCategory === 'foundation') {
       if (activeCompany !== 'الكل') {
-        filtered = filtered.filter(item => item.company === activeCompany);
+        filtered = filtered.filter(item => item.company === activeCompany && (item.stage === 'foundation' || item.grade === 'تأسيس'));
       } else {
-        filtered = filtered.filter(item => isFoundationCompany(item.company));
+        filtered = filtered.filter(item => item.stage === 'foundation' || item.grade === 'تأسيس');
       }
     } else {
       filtered = filtered.filter(item => item.grade === activeGrade && item.pathway === activePathway);
